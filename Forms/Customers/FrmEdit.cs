@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace POSSystem.Forms.Customers
 {
-    public partial class FrmDelete : Form
+    public partial class FrmEdit : Form
     {
-        public FrmDelete()
+        public FrmEdit()
         {
             InitializeComponent();
         }

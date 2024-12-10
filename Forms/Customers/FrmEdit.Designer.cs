@@ -1,6 +1,6 @@
 ﻿namespace POSSystem.Forms.Customers
 {
-    partial class FrmDelete
+    partial class FrmEdit
     {
         /// <summary>
         /// Required designer variable.

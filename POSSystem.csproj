@@ -10,16 +10,26 @@
 
   <ItemGroup>
     <Folder Include="DS\" />
-    <Folder Include="Forms\Invoices\" />
-    <Folder Include="Forms\InvioceDetails\" />
-    <Folder Include="Forms\Customers\" />
-    <Folder Include="Forms\Categories\" />
-    <Folder Include="Forms\Items\" />
-    <Folder Include="Forms\Suppliers\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="CrystalReports.Shared" Version="13.0.4003" />
     <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>

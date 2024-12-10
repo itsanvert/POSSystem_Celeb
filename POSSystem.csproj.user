@@ -1,27 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Clone\SMS\StudentManagementSysterm-WinForm\AddFacultyForm.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="Clone\SMS\StudentManagementSysterm-WinForm\AddRegisterForm.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="Clone\SMS\StudentManagementSysterm-WinForm\AddStudentForm.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="Clone\SMS\StudentManagementSysterm-WinForm\frmIntro.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Clone\SMS\StudentManagementSysterm-WinForm\frmLogin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Clone\SMS\StudentManagementSysterm-WinForm\frmMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Clone\SMS\StudentManagementSysterm-WinForm\SMS Compo.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Update="Forms\Categories\FrmCreate.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +40,9 @@
     <Compile Update="Forms\Imports\FrmCreate.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\Imports\FrmEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\Imports\FrmList.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,10 +61,16 @@
     <Compile Update="Forms\Items\FrmCreate.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\Items\FrmEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\Items\FrmList.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\Suppliers\FrmCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Suppliers\FrmEdit.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\Suppliers\FrmList.cs">

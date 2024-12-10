@@ -16,5 +16,15 @@ namespace POSSystem.Forms
         {
             InitializeComponent();
         }
+
+        private void toolStripMenuItem25_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripMenuItem7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
