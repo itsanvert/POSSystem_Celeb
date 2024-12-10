@@ -25,13 +25,16 @@
     <Compile Update="Forms\Categories\FrmCreate.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\Categories\FrmDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\Categories\FrmList.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\Customers\FrmCreate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Forms\Customers\FrmDelete.cs">
+    <Compile Update="Forms\Customers\FrmEdit.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\Customers\FrmList.cs">
@@ -47,6 +50,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\ImportDetails\FrmCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ImportDetails\FrmEdit.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\ImportDetails\FrmList.cs">
